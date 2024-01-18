@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6883320904811019597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4146624931067447398}
+  - component: {fileID: 6534526659784862516}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4146624931067447398
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883320904811019597}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.56255, y: -7.6523924, z: -0.7788311}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6534526659784862516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6883320904811019597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1f18bf83d711494a95d2f2813072dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allSFX:
+  - <name>k__BackingField: Theme
+    <clip>k__BackingField: {fileID: 8300000, guid: fb82199fabd2540409da59f25ad81a39, type: 3}
+    volume: 0
+    pitch: 1
+    <loop>k__BackingField: 1
+  - <name>k__BackingField: Win
+    <clip>k__BackingField: {fileID: 8300000, guid: 713ccc8574523de4d9fd7c778fb7d42c, type: 3}
+    volume: 1
+    pitch: 1
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: Lose
+    <clip>k__BackingField: {fileID: 8300000, guid: 2d85696a25e1227438834bbf458d57a7, type: 3}
+    volume: 0.1
+    pitch: 1.35
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: SwordSwing
+    <clip>k__BackingField: {fileID: 8300000, guid: 809b62b510d89614c835c8f070f4a405, type: 3}
+    volume: 0.4
+    pitch: 1
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: SwordHit
+    <clip>k__BackingField: {fileID: 8300000, guid: 13009b844b1dbd648bedcca8c2f84cda, type: 3}
+    volume: 0.375
+    pitch: 1
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: SlimeAttack
+    <clip>k__BackingField: {fileID: 8300000, guid: 3d8d008ce76f8244299fdf2cd10fd300, type: 3}
+    volume: 0.4
+    pitch: 1
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: Footstep1
+    <clip>k__BackingField: {fileID: 8300000, guid: 71c2d4dcb601dec47a006633ca1643a8, type: 3}
+    volume: 1
+    pitch: 1
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: Footstep2
+    <clip>k__BackingField: {fileID: 8300000, guid: bcd56796f6e13a84ca038cf9c44649a1, type: 3}
+    volume: 1
+    pitch: 1
+    <loop>k__BackingField: 0
+  - <name>k__BackingField: Transition
+    <clip>k__BackingField: {fileID: 8300000, guid: 6f02b10d1e8967a4bb7c0c52455c9008, type: 3}
+    volume: 1
+    pitch: 1
+    <loop>k__BackingField: 0
+  masterVol: 1
